@@ -1,0 +1,43 @@
+# ── Web Framework ─────────────────────────────────────────
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# ── Database ──────────────────────────────────────────────
+sqlalchemy==2.0.36
+asyncpg==0.30.0
+psycopg2-binary==2.9.9
+alembic==1.14.0
+
+# ── Auth ──────────────────────────────────────────────────
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.12
+
+# ── Settings ──────────────────────────────────────────────
+pydantic-settings==2.6.1
+pydantic[email]==2.10.3
+
+# ── Async HTTP (for proxy calls to inference containers) ──
+httpx==0.28.0
+
+# ── Monitoring ────────────────────────────────────────────
+prometheus-fastapi-instrumentator==7.0.2
+
+# ── Task Queue ────────────────────────────────────────────
+celery==5.4.0
+redis==5.2.1
+
+# ── Docker SDK ────────────────────────────────────────────
+docker==7.1.0
+
+# ── ML (for validation utilities) ────────────────────────
+scikit-learn==1.5.2
+torch==2.5.1
+numpy==1.26.4
+joblib==1.4.2
+
+# ── Testing ───────────────────────────────────────────────
+pytest==8.3.4
+pytest-asyncio==0.24.0
+httpx==0.28.0
