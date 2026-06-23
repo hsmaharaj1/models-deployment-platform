@@ -105,7 +105,7 @@ Prometheus and Grafana are configured to automatically scrape inference performa
    docker compose up prometheus grafana -d
    ```
 2. Open Prometheus at **http://localhost:9090** to view raw metrics.
-3. Open Grafana at **http://localhost:3001** (default credentials: `admin` / `admin_secret`) to view the pre-provisioned MLOps dashboard showing deployment status, throughput, p50/p95/p99 latencies, and error rates.
+3. Open Grafana at **http://localhost:3001** (default credentials: `admin` / `admin`) to view the pre-provisioned MLOps dashboard showing deployment status, throughput, p50/p95/p99 latencies, and error rates.
 
 ---
 

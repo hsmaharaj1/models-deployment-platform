@@ -160,6 +160,7 @@ function DeploymentCard({
   onPredict,
   onLogs,
   onRecover,
+  onAsyncQueue,
 }: {
   deployment: Deployment
   onStop: () => void
